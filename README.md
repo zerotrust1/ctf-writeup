@@ -34,7 +34,7 @@ ctf-writeup/
 ### [Hidden Investigations CTF 2026 (hiCON / hiCTF)](./competitions/2026/Hidden-Investigations-CTF/README.md)
 * **Status:** 26/26 Challenges Documented & Solved
 * **Highlights:**
-  * **Advanced Reversing:** Smart's $p$-adic attack on anomalous elliptic curves (`Entitlement`), OpenSSL AVX-512 Montgomery squaring for 9 Billion VDF cycles (`ChronoGrind`), Nim stack VM disassembly (`Inner Engine`), Erlang BEAM modular inverse (`Signal Lock`).
+  * **Advanced Reversing:** Smart's p-adic attack on anomalous elliptic curves (`Entitlement`), OpenSSL AVX-512 Montgomery squaring for 9 Billion VDF cycles (`ChronoGrind`), Nim stack VM disassembly (`Inner Engine`), Erlang BEAM modular inverse (`Signal Lock`).
   * **Deep Forensics:** Kernel DKOM unlinked process detection (`Memory Liar`), 5-layer shattered NTFS geometry reconstruction (`Resurrection`), 4-layer nested steganography (`Echoes of a Forgotten Canvas`).
   * **Pwn & Concurrency:** Multi-threaded balance double-spend and TOCTOU file handle race (`Apex Engine`).
   * **Blockchain Security:** secp256k1 ECDSA nonce reuse private key recovery (`Dormant Signer`).

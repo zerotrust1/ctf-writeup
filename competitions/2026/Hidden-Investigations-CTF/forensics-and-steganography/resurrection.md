@@ -17,7 +17,7 @@
 2. **Phase 2 (`53c0nd`):** NTFS Data Runlist Geometry
 3. **Phase 3 (`th1jd`):** USN Transaction Journal FILETIME Nanosecond Deltas
 4. **Phase 4 (`f01_1rth`):** EVTX Binary XML Token Stream
-5. **Phase 5 (`51f7h`):** $Bitmap Orphan Cluster Void
+5. **Phase 5 (`51f7h`):** <code>&#36;Bitmap</code> Orphan Cluster Void
 
 ---
 

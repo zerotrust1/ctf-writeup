@@ -14,9 +14,9 @@
 * **Total Challenges Solved:** 26 Challenges
 * **Categories Covered:** Reverse Engineering, Forensics & Steganography, Binary Exploitation (Pwn), Cryptography, Smart Contracts / Blockchain, Misc (Sandbox Escapes), and OSINT / IMINT.
 * **Key Technical Feats:**
-  * Broke an anomalous elliptic curve licensing validator via **Smart's $p$-adic formal group logarithm attack** in $\mathcal{O}(\log p)$ time (`Entitlement`).
+  * Broke an anomalous elliptic curve licensing validator via **Smart's p-adic formal group logarithm attack** in O(log p) time (`Entitlement`).
   * Engineered a hardware-accelerated **AVX-512 / BMI2 Montgomery squaring engine in C** using OpenSSL to compute **9 Billion VDF modular squarings** (`ChronoGrind`).
-  * Decompiled **Erlang OTP 26 BEAM bytecode** and calculated modular multiplicative inverses over $\mathbb{Z}_{2^{64}}$ (`Signal Lock`).
+  * Decompiled **Erlang OTP 26 BEAM bytecode** and calculated modular multiplicative inverses over integers modulo 2^64 (`Signal Lock`).
   * Reconstructed an unlinked Windows kernel rootkit process by bypassing **DKOM list unlinking** using pool tag allocation scanning (`Memory Liar`).
   * Reassembled a **5-tier shattered transmission** across raw NTFS geometry, USN transaction logs, and PE timestamp overlays (`Resurrection`).
 
@@ -27,11 +27,11 @@
 | Category | Challenge Name | Difficulty | Vulnerability Archetype | Solved Flag |
 | :--- | :--- | :---: | :--- | :--- |
 | **Rev** | [Entitlement](./reverse-engineering/entitlement.md) | **Hard** | Anomalous Elliptic Curve Smart's Attack & VDF Time-Lock | `hiCTF{>o<_C0ngrats_Her3_1s_Y0ur_HI4_Subscript1on_^_^}` |
-| **Rev** | [ChronoGrind](./reverse-engineering/chronogrind.md) | **Hard** | 9 Billion Modular Squaring VDF & ChaCha20-Poly1305 | `hiCTF{n1c3_w0rk_n0w_t4k3_s0m3_r3$t}` |
+| **Rev** | [ChronoGrind](./reverse-engineering/chronogrind.md) | **Hard** | 9 Billion Modular Squaring VDF & ChaCha20-Poly1305 | <code>hiCTF{n1c3_w0rk_n0w_t4k3_s0m3_r3&#36;t}</code> |
 | **Rev** | [Cold Beacon](./reverse-engineering/cold-beacon.md) | **Hard** | Z3 Symbolic Modeling & SHA-256 Keystream Decryption | `hiCTF{c0ld_b34c0n_cfg_uns34l3d_fr0m_th3_s4mpl3}` |
 | **Rev** | [Obfuscated Flow](./reverse-engineering/rev-obs-flow.md) | **Hard** | Control Flow Flattening (CFF) & Pohlig-Hellman DLog | `hiCTF{m4th_c0ntr0l_fl0w_3ll1pt1c_dlog_4f7b2c9e}` |
 | **Rev** | [Inner Engine](./reverse-engineering/inner-engine.md) | **Medium** | Nim Custom Stack VM Bytecode & Z3 Constraint Satisfaction | `hiCTF{vm_byt3c0d3_1nn3r_3ng1n3_unw0und!}` |
-| **Rev** | [Signal Lock](./reverse-engineering/signal-lock.md) | **Medium** | Erlang OTP 26 BEAM Decompilation & $\mathbb{Z}_{2^{64}}$ Modular Inverse | `hiCTF{b34m_byt3c0d3_n3v3r_l13s_s3ss10n_unl0ck3d}` |
+| **Rev** | [Signal Lock](./reverse-engineering/signal-lock.md) | **Medium** | Erlang OTP 26 BEAM Decompilation & Modular Inverse over 2^64 | `hiCTF{b34m_byt3c0d3_n3v3r_l13s_s3ss10n_unl0ck3d}` |
 | **Rev** | [Warden's Maze](./reverse-engineering/maze-breach.md) | **Medium** | Raycasting 8-bit Integer Truncation & Map Memory Corruption | `hiCTF{r4yc4st1ng_trunc4t10n_br34ch3d_th3_v4ult}` |
 | **Rev** | [Epsilon Drift](./reverse-engineering/epsilon-drift.md) | **Medium** | IEEE-754 Precision Drift & Signed Zero Invariant | `hiCTF{1eee754_s1gn3d_z3r0_1u1p_dr1ft_eps!}` |
 | **Rev** | [Night Batch](./reverse-engineering/night-batch.md) | **Medium** | GnuCOBOL Packed Decimal (COMP-3) Constraint System | `hiCTF{c0b0l_p4ck3d_d3c1mal_n1ghtly_b4tch!}` |

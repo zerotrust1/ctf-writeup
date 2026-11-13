@@ -16,7 +16,7 @@ Then we look again in the description. "figure the best one" So from there I sta
 So I change the cookies to 2 <img width="1920" height="956" alt="image" src="https://github.com/user-attachments/assets/7f271d1d-3008-4334-a637-6bd658396dd4" />
 See how the cookies name changaed, then I increase the number to 3,4,5, etc until I found the flag which on the value of 18
 <img width="1917" height="754" alt="image" src="https://github.com/user-attachments/assets/1b2ca263-ee48-48e2-aa76-95306adb9c79" />
-picoCTF{3v3ry1_l0v3s_c00k135_cc9110ba}
+`picoCTF{3v3ry1_l0v3s_c00k135_cc9110ba}`
 
 # what we learn
 So from here we learn that cookies is on our computer we can change it with everything we want.

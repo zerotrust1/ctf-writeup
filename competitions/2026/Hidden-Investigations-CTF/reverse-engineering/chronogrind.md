@@ -5,7 +5,7 @@
 | **Event** | Hidden Investigations CTF 2026 (hiCON / hiCTF) |
 | **Category** | Reverse Engineering & Cryptography |
 | **Difficulty** | Hard |
-| **Flag** | `hiCTF{n1c3_w0rk_n0w_t4k3_s0m3_r3$t}` |
+| **Flag** | <code>hiCTF{n1c3_w0rk_n0w_t4k3_s0m3_r3&#36;t}</code> |
 | **Vulnerability Class** | Verifiable Delay Function (VDF) Sequential Squaring & ChaCha20-Poly1305 (CWE-327) |
 | **Framework Mapping** | NIST SP 800-115 §4.4 / OWASP WSTG-CRYP-01 |
 
@@ -85,7 +85,7 @@ int main() {
     
     printf("[+] Key Derived successfully.\n");
     // ChaCha20-Poly1305 Decryption of flag.enc
-    // Yields: hiCTF{n1c3_w0rk_n0w_t4k3_s0m3_r3$t}
+    // Yields: hiCTF{n1c3_w0rk_n0w_t4k3_s0m3_r3\$t}
     return 0;
 }
 ```
